@@ -25,7 +25,6 @@ ModalGenerator.prototype.askFor = function askFor() {
 ModalGenerator.prototype.files = function files() {
 
     this.ctrlname = _.classify(this.name) + 'Controller';
-    this.modulename = this.appname + ".modal." + _.camelize(this.name);
 
     cgUtils.processTemplates(this.name,this.dir,'modal',this,null,null,this.module);
 

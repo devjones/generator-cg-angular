@@ -1,6 +1,6 @@
 describe('<%= directivename %>', function() {
 
-  beforeEach(module('<%= modulename %>'));
+  beforeEach(module('<%= appname %>'));
 
   var scope,compile;
 

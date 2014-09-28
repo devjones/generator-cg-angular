@@ -1,4 +1,4 @@
-angular.module('<%= modulename %>').directive('<%= directivename %>', function() {
+angular.module('<%= appname %>').directive('<%= directivename %>', function() {
 	return {
 		restrict: 'E',
 		replace: true,

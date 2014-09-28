@@ -1,4 +1,4 @@
-angular.module('<%= modulename %>').factory('<%= servicename %>',function() {
+angular.module('<%= appname %>').factory('<%= servicename %>',function() {
 
 	var <%= servicename %> = {};
 

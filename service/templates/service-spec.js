@@ -1,6 +1,6 @@
 describe('<%= servicename %>', function() {
 
-  beforeEach(module('<%= modulename %>'));
+  beforeEach(module('<%= appname %>'));
 
   it('should ...', inject(function(<%= servicename %>) {
 

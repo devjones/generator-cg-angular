@@ -38,7 +38,6 @@ PartialGenerator.prototype.askFor = function askFor() {
 PartialGenerator.prototype.files = function files() {
 
     this.ctrlname = _.classify(this.name) + 'Controller';
-    this.modulename = this.appname + ".controller." + _.camelize(this.name);  
 
     cgUtils.processTemplates(this.name,this.dir,'partial',this,null,null,this.module);
 

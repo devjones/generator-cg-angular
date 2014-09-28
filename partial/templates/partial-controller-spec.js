@@ -1,6 +1,6 @@
 describe('<%= ctrlname %>', function() {
 
-	beforeEach(module('<%= modulename %>'));
+	beforeEach(module('<%= appname %>'));
 
 	var scope,ctrl;
 

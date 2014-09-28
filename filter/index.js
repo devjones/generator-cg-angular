@@ -27,7 +27,6 @@ FilterGenerator.prototype.askFor = function askFor() {
 FilterGenerator.prototype.files = function files() {
 
     this.filtername = _.camelize(this.name);
-    this.modulename = this.appname + ".filter." + _.camelize(this.name);
 
     cgUtils.processTemplates(this.name,this.dir,'filter',this,null,null,this.module);
 

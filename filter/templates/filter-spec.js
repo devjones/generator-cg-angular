@@ -1,6 +1,6 @@
 describe('<%= filtername %>', function() {
 
-	beforeEach(module('<%= modulename %>'));
+	beforeEach(module('<%= appname %>'));
 
 	it('should ...', inject(function($filter) {
 
