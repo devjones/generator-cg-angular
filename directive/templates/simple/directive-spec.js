@@ -1,6 +1,6 @@
-describe('<%= _.camelize(name) %>', function() {
+describe('<%= directivename %>', function() {
 
-  beforeEach(module('<%= appname %>'));
+  beforeEach(module('<%= modulename %>'));
 
   var scope,compile;
 

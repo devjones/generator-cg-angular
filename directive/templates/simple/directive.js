@@ -1,4 +1,4 @@
-angular.module('<%= appname %>').directive('<%= _.camelize(name) %>', function() {
+angular.module('<%= modulename %>').directive('<%= directivename %>', function() {
 	return {
 		restrict: 'A',
 		link: function(scope, element, attrs, fn) {

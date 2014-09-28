@@ -37,6 +37,9 @@ DirectiveGenerator.prototype.askFor = function askFor() {
 
 DirectiveGenerator.prototype.files = function files() {
 
+    this.directivename = _.camelize(this.name);
+    this.modulename = this.appname + ".directive." + this.directivename;  
+
     var configName = 'directiveSimpleTemplates';
     var defaultDir = 'templates/simple';
     if (this.needpartial) {
