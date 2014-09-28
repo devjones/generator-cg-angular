@@ -1,4 +1,4 @@
-angular.module('<%= appname %>').filter('<%= _.camelize(name) %>', function() {
+angular.module('<%= modulename %>').filter('<%= filtername %>', function() {
 	return function(input,arg) {
 		return 'output';
 	};

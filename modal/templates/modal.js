@@ -1,4 +1,4 @@
-angular.module('<%= appname %>').controller('<%= ctrlname %>',function($scope){
+angular.module('<%= modulename %>').controller('<%= ctrlname %>',function($scope){
 
 
 });
