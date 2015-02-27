@@ -26,7 +26,7 @@ ServiceGenerator.prototype.askFor = function askFor() {
 
 ServiceGenerator.prototype.files = function files() {
 
-    this.servicename = _.camelize(this.name);
+    this.servicename = _.camelize(this.name) + 'Service';
 
     cgUtils.processTemplates(this.name,this.dir,'service',this,null,null,this.module);
 
