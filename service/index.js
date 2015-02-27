@@ -21,7 +21,7 @@ util.inherits(ServiceGenerator, yeoman.generators.NamedBase);
 ServiceGenerator.prototype.askFor = function askFor() {
     var cb = this.async();
 
-    cgUtils.askForModuleAndDir('service',this,false,cb);
+    cgUtils.askForModuleAndDir('service',this,true,cb);
 };
 
 ServiceGenerator.prototype.files = function files() {
